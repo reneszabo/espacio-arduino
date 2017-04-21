@@ -1,0 +1,28 @@
+{
+  "name": "parking-arduino",
+  "version": "1.0.0",
+  "description": "Arduino with Johnny Five, Sense cars IN and OUT a Parking lot.",
+  "author": {
+    "name" : "Rene Ramirez",
+    "email" : "rene.szabo@gmail.com",
+    "url" : "https://ramirez-portfolio.com/"
+  },
+  "contributors": [{
+    "name" : "Qiongrong Jiang",
+    "email" : "qiongrongjiang@gmail.com",
+    "url" : "http://qiongrongjiang.com/"
+  }],
+  "keywords": ["arduino", "nodejs", "jhnnoy five", "socket io"],
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "johnny-five": "^0.10.7",
+    "request": "^2.81.0",
+    "socket.io": "^1.7.3"
+  }
+}
